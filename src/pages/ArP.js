@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const ArP = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Arunachal Pradesh
@@ -35,11 +36,11 @@ const ArP = () => {
               <tr>
                 <th scope="row">FIRE SERVICE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101</a>
+                  <a href="callto:">101</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
                   <a href="callto:">102</a> ,<a href="callto:"> 102</a>
                 </td>
@@ -47,7 +48,7 @@ const ArP = () => {
               <tr>
                 <th scope="row">Emergency Management & Research Institute</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 108 </a>
+                  <a href="callto:"> 108 </a>
                 </td>
               </tr>
               <tr>
@@ -77,8 +78,7 @@ const ArP = () => {
               <tr>
                 <th scope="row">CHILD HELPLINE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">1098</a>
-                </td>
+                  <a href="callto:">1098</a></td>
               </tr>
               <tr>
                 <th scope="row">NIRBHAYA HELPLINE</th>
@@ -123,42 +123,33 @@ const ArP = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">Tara Memorial Hospital , NH 52 A , Nirjuli </th>
+                <th scope="row">Tara Memorial Hospital , NH 52 A , Nirjuli </th>
                 <td className="fw-bold ">
-                  <a href="callto:">0360- 2257183</a>,
-                  <a href="callto:">2258005</a>
+                  <a href="callto:">0360- 2257183</a>,<a href="callto:">2258005</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">Ramakrishna Mission Hospital , Itanagar</th>
                 <td className="fw-bold ">
-                  <a href="callto:">91-0360-2005050</a>,
-                  <a href="callto:">2212761</a>,<a href="callto:">2212762</a>,
-                  <a href="callto:">2212763</a>,<a href="callto:">2218780</a>
+                  <a href="callto:">91-0360-2005050</a>,<a href="callto:">2212761</a>,<a href="callto:">2212762</a>,<a href="callto:">2212763</a>,<a href="callto:">2218780</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">Tawang District Hospital ( D.M.O ,Tawang) </th>
+                <th scope="row">Tawang District Hospital ( D.M.O ,Tawang) </th>
                 <td className="fw-bold ">
-                  <a href="callto:">03794-223092</a>,
-                  <a href="callto:">03794-222339</a>,
-                  <a href="callto:">03794-222335</a>
+                  <a href="callto:">03794-223092</a>,<a href="callto:">03794-222339</a>,<a href="callto:">03794-222335</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">
-                  District Hospital Kameng ( East Kameng District )
-                </th>
+                <th scope="row">District Hospital Kameng ( East Kameng District )</th>
                 <td className="fw-bold ">
-                  <a href="callto:">03787-222428</a>,{" "}
-                  <a href="callto:">03787-222239</a>
+                  <a href="callto:">03787-222428</a>, <a href="callto:">03787-222239</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">District Hospital Anini </th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 03801-222278</a>,
-                  <a href="callto:">03801-222230</a>
+                  <a href="callto:"> 03801-222278</a>,<a href="callto:">03801-222230</a>
                 </td>
               </tr>
               <tr>
@@ -168,33 +159,31 @@ const ArP = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">District Hospital Tazu</th>
+                <th scope="row">District Hospital Tazu</th>
                 <td className="fw-bold ">
                   <a href="callto:">03804-223130</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">HEEMA Hospital , Itanagar</th>
+                <th scope="row">HEEMA Hospital , Itanagar</th>
                 <td className="fw-bold ">
                   <a href="callto:">2217800</a>,<a href="callto:"> 2291094</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">HORMIN Hospital , Naharlagun</th>
+                <th scope="row">HORMIN Hospital , Naharlagun</th>
                 <td className="fw-bold ">
                   <a href="callto:">2350205</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">NIBA Hospital , Naharlagun </th>
+                <th scope="row">NIBA Hospital , Naharlagun </th>
                 <td className="fw-bold ">
                   <a href="callto:">2244574</a>,<a href="callto:">22351200</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">
-                  CHEIF MEDICAL OFFICER ( ARUNACHAL STATE HOSPITAL){" "}
-                </th>
+                <th scope="row">CHEIF MEDICAL OFFICER ( ARUNACHAL STATE HOSPITAL) </th>
                 <td className="fw-bold ">
                   <a href="callto:">2244293</a>
                 </td>

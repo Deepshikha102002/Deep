@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Layout from "../components/Layout/layout"
-import Image from "../components/Images/images"
+import Layout from "../components/Layout/Layout"
+import Image from "../components/Images/Images"
 
 export const pageQuery = graphql`
   query MyQuery {
@@ -30,13 +30,13 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <div className="container py-5">
-        <h2 className="p-2 border-bottom fw-bold text-center">Blog Posts</h2>
+        <h2 className="pb-2 border-bottom text-center py-5">Blog Posts</h2>
         <div className="row justify-content-center py-5">
           {data.allMdx.edges.map((edge, i) => {
             return (
-              <div key={i} className="col-lg-4 col-md-6 col-sm-12">
+              <div key={i} className="col-lg-3 col-md-6 col-sm-12">
                 <Link to={`/blog${edge.node.fields.slug}`}>
-                  <div className="card shadow mb-4 border-0">
+                  <div className="card shadow mb-4">
                     <Image
                       className="card-img"
                       style={{ margin: "0 auto" }}
@@ -44,7 +44,7 @@ const Blog = ({ data }) => {
                       alt={edge.node.frontmatter.image}
                     />
                     <div class="card-img-overlay">
-                      <h4 class="card-title text-shadow ">
+                      <h4 class="card-title card-shadow fw-bold" style={{color: "brown"}}>
                         {" "}
                         {edge.node.frontmatter.title}
                       </h4>
@@ -59,5 +59,4 @@ const Blog = ({ data }) => {
     </Layout>
   )
 }
-
 export default Blog

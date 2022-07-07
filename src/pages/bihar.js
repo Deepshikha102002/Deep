@@ -1,12 +1,15 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Bihar = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
-        <h1 class="py-5 border-bottom align-items-center fw-bold ">Bihar</h1>
+        <h1 class="py-5 border-bottom align-items-center fw-bold ">
+          Bihar
+        </h1>
         <div
           className="row row-header justify-content-center"
           style={{ paddingTop: "50px" }}
@@ -27,8 +30,7 @@ const Bihar = () => {
               <tr>
                 <th scope="row">POLICE CONTROL ROOM PATNA</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0612-2201977</a>,
-                  <a href="callto:">0612-2201978</a>
+                  <a href="callto:">0612-2201977</a>,<a href="callto:">0612-2201978</a>
                 </td>
               </tr>
               <tr>
@@ -38,9 +40,9 @@ const Bihar = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">DISTRICT CONTROL ROOM PATNA </th>
+                <th scope="row">DISTRICT CONTROL ROOM PATNA </th>
                 <td className="fw-bold ">
-                  <a href="callto:">0612-2219810</a>
+                  <a href="callto:">0612-2219810</a> 
                 </td>
               </tr>
               <tr>
@@ -76,11 +78,10 @@ const Bihar = () => {
               <tr>
                 <th scope="row">CHILD HELPLINE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">1098</a>
-                </td>
+                  <a href="callto:">1098</a></td>
               </tr>
               <tr>
-                <th scope="row">VIGILANCE </th>
+                <th scope="row">VIGILANCE </th>
                 <td className="fw-bold ">
                   <a href="callto:">1800110180</a>
                 </td>
@@ -124,8 +125,7 @@ const Bihar = () => {
               <tr>
                 <th scope="row">MUNICIPAL COOPERATION CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0612-2911134-35</a>,
-                  <a href="callto:">0612-3261372-73</a>
+                  <a href="callto:">0612-2911134-35</a>,<a href="callto:">0612-3261372-73</a>
                 </td>
               </tr>
               <tr>

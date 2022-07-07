@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const MP = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Madhya Pradesh
@@ -53,7 +54,7 @@ const MP = () => {
               <tr>
                 <th scope="row">Women Helpline Number</th>
                 <td className="fw-bold ">
-                  <a href="callto:">109, 1091</a>
+                  <a href="callto:">109</a>, <a href="callto:">1091</a>
                 </td>
               </tr>
               <tr>

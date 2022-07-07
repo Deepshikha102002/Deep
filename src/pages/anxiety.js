@@ -1,5 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
+import Layout from "../components/Layout/Layout"
+import Hero from "../components/Hero/Hero"
 import { Link } from "gatsby"
 const Anxiety = () => {
   return (

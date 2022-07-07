@@ -1,12 +1,15 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const DNH = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
-        <h1 class="py-5 border-bottom align-items-center fw-bold ">Gujarat</h1>
+        <h1 class="py-5 border-bottom align-items-center fw-bold ">
+          Dadra and Nagar Haveli
+        </h1>
         <div
           className="row row-header justify-content-center"
           style={{ paddingTop: "50px" }}
@@ -33,13 +36,13 @@ const DNH = () => {
               <tr>
                 <th scope="row">FIRE STATION</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101</a>
+                  <a href="callto:">101</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
-                  <a href="callto:">108</a>
+                  <a href="callto:">108</a> 
                 </td>
               </tr>
               <tr>
@@ -55,7 +58,7 @@ const DNH = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">WOMAN HELPLINE </th>
+                <th scope="row">WOMAN HELPLINE </th>
                 <td className="fw-bold ">
                   <a href="callto:"> 1091</a>
                 </td>
@@ -81,61 +84,61 @@ const DNH = () => {
               <tr>
                 <th scope="row">RAILWAY ENQUIRY </th>
                 <td className="fw-bold ">
-                  <a href="callto:">135</a>
+                  <a href="callto:">135</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">SENIOR CITIZEN HELPLINE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">1291</a>
+                  <a href="callto:">1291</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">DNH COVID-19 CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">1077</a>
+                  <a href="callto:">1077</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">DNH-FLOOD CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 0260-2630304 </a>
+                  <a href="callto:">  0260-2630304 </a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">TOLL FREE NUMBER</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 1800-4252727</a>
+                  <a href="callto:"> 1800-4252727</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">COMPLAIN NUMBER</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 01126701728</a>
+                  <a href="callto:"> 01126701728</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">POLICE CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0260-2642033</a>
+                  <a href="callto:">0260-2642033</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">IRB CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0260-2645276</a>
+                  <a href="callto:">0260-2645276</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">FLOOD CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0260-2630304</a>
+                  <a href="callto:">0260-2630304</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">NMDA CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">080-26961629</a>
+                  <a href="callto:">080-26961629</a> 
                 </td>
               </tr>
             </tbody>

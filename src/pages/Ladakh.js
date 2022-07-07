@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Ladakh = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">Ladakh</h1>
         <div

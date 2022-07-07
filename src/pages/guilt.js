@@ -1,13 +1,22 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-
+import Layout from "../components/Layout/Layout"
+import Hero from "../components/Hero/Hero"
+import Image from "../components/Images/Images"
+import { Link } from "gatsby"
 const Guilt = () => {
   return (
     <Layout>
+        <Hero/>
       <div className="container-fluid  py-5">
-        <h1 class="py-5 border-bottom align-items-center fw-bold text-center ">
-          GUILT
+      <Link to={"/guiWhat"}>
+        <h1 class="py-5  display-2 border-bottom align-items-center fw-bold text-center toggle" style={{
+                fontFamily: "Bradley Hand, cursive",
+                textAlign: "justify",
+                color: "rgb(11, 39, 88)",
+              }}>
+          Guilt
         </h1>
+        </Link>
         <div className="row row-header justify-content-center ">
           <div className="cards card-body ">
             <h3

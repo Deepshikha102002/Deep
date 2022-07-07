@@ -1,13 +1,10 @@
 import React from "react"
-import Image from "../Images/images"
+import Image from "../Images/Images"
 
 const Hero = () => {
   return (
-    <div class=" container-md py-5">
-      <div
-        className="row  row-header align-items-center g-5 py-5"
-        style={{ paddingRight: "50px" }}
-      >
+    <div class=" container-md py-5" >
+         <div className="row  row-header align-items-center g-5 py-5" style={{paddingRight:"50px"}}>
         <div className="col-12 col-md-6 col-sm-6 text-center">
           <h1
             className="display-1 fw-bold lh-2 "

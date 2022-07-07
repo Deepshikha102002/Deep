@@ -1,10 +1,10 @@
 import React from "react"
-import Image from "../components/Images/images"
+import Image from "../components/Images/Images"
 import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
-import Layout from "../components/Layout/layout"
+import Layout from "../components/Layout/Layout"
 import {
   Facebook,
   Instagram,
@@ -26,15 +26,22 @@ const BlogPostTemplate = ({ data, pageContext }) => {
       />
       <div className="container py-5">
         <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          <div className="col-lg col-md-12 col-sm-12">
             <div className="card card-body shadow mb-4">
               <h1 class="text-primary fw-bold">{mdx.frontmatter.title}</h1>
+              
+              <p>
+                Posted on: <strong>{mdx.frontmatter.date}</strong>
+              </p>
+              <h1 class="pb-2 border-bottom text-center text-primary fw-bold"></h1>
 
               <MDXProvider>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
               </MDXProvider>
             </div>
+          </div>
 
+         
             <div className="text-center">
               {prev ? (
                 <Link
@@ -62,7 +69,9 @@ const BlogPostTemplate = ({ data, pageContext }) => {
               ) : (
                 <div></div>
               )}
-            </div>
+            
+
+            
           </div>
         </div>
       </div>
@@ -82,7 +91,6 @@ export const query = graphql`
       }
       frontmatter {
         title
-        author
         date
         image
       }

@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Jharkhand = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Jharkhand
@@ -35,13 +36,13 @@ const Jharkhand = () => {
               <tr>
                 <th scope="row">FIRE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101,0651-2283825 </a>
+                  <a href="callto:">101</a>,<a href="callto:">0651-2283825 </a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
-                  <a href="callto:">102, 108</a>
+                  <a href="callto:">102</a>,<a href="callto:">108</a>
                 </td>
               </tr>
               <tr>
@@ -84,25 +85,30 @@ const Jharkhand = () => {
               <tr>
                 <th scope="row">Red Cross Blood Bank</th>
                 <td className="fw-bold ">
-                  <a href="callto:">834005, 309290, 308587</a>
+                  <a href="callto:">834005</a>, 
+                  <a href="callto:">309290</a>, 
+                  <a href="callto:">308587</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">Voluntary Blood Donors Association</th>
                 <td className="fw-bold ">
-                  <a href="callto:">834002, 500576</a>
+                  <a href="callto:">834002</a>, 
+                  <a href="callto:">500576</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">State Tourism Bus Stand</th>
                 <td className="fw-bold ">
-                  <a href="callto:">2314826, 2306941</a>
+                  <a href="callto:">2314826</a>, 
+                  <a href="callto:">2306941</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">Bisra Bus Stand</th>
                 <td className="fw-bold ">
-                  <a href="callto:">2301622, 2304328</a>
+                  <a href="callto:">2301622</a>, 
+                  <a href="callto:">2304328</a>
                 </td>
               </tr>
               <tr>

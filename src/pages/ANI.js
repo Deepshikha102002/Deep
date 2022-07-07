@@ -1,6 +1,8 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-const Help = () => {
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
+const ANI = () => {
   return (
     <Layout>
       <div className="container text-center py-5">
@@ -17,9 +19,9 @@ const Help = () => {
           >
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col ">
-                  <h3>State-Wise</h3>
+                  <h3></h3>
                 </th>
               </tr>
             </thead>
@@ -27,25 +29,25 @@ const Help = () => {
               <tr>
                 <th scope="row">POLICE CONTROL ROOM</th>
                 <td className="fw-bold ">
-                  <a href="callto:">100</a>
+                  <a href="callto:100">100</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">FIRE SERVICE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101</a>{" "}
+                  <a href="callto:">101</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
                   <a href="callto:">232102</a> ,<a href="callto:"> 233473</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">SHIPPING </th>
+                <th scope="row">SHIPPING </th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 245555 </a>
+                  <a href="callto:"> 245555 </a>
                 </td>
               </tr>
               <tr>
@@ -61,7 +63,7 @@ const Help = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">CHILDREN </th>
+                <th scope="row">CHILDREN </th>
                 <td className="fw-bold ">
                   <a href="callto:">1098</a>
                 </td>
@@ -92,4 +94,4 @@ const Help = () => {
   )
 }
 
-export default Help
+export default ANI

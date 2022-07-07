@@ -1,14 +1,13 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Mah = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
-        <h1 class="py-5 border-bottom align-items-center fw-bold ">
-          Maharashtra
-        </h1>
+        <h1 class="py-5 border-bottom align-items-center fw-bold ">Maharashtra</h1>
         <div
           className="row row-header justify-content-center"
           style={{ paddingTop: "50px" }}
@@ -95,7 +94,8 @@ const Mah = () => {
               <tr>
                 <th scope="row">BLOOD BANK</th>
                 <td className="fw-bold ">
-                  <a href="callto:">104, 1910</a>
+                  <a href="callto:">104</a>, 
+                  <a href="callto:">1910</a>
                 </td>
               </tr>
               <tr>
@@ -105,9 +105,9 @@ const Mah = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">
-                  Railways Accident / Govt. Railway Police (G.R.P )
-                </th>
+                <th scope="row">Railways Accident /
+
+Govt. Railway Police (G.R.P )</th>
                 <td className="fw-bold ">
                   <a href="callto:">9833331111</a>
                 </td>
@@ -133,7 +133,10 @@ const Mah = () => {
               <tr>
                 <th scope="row">Tata Memorial Hospital Blood Bank </th>
                 <td className="fw-bold ">
-                  <a href="callto:">24149750, 24161413, 24170000, 24127096</a>
+                  <a href="callto:">24149750</a>, 
+                  <a href="callto:">24161413</a>, 
+                  <a href="callto:">24170000</a>, 
+                  <a href="callto:">24127096</a>
                 </td>
               </tr>
               <tr>

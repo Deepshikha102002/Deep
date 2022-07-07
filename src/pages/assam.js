@@ -1,8 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-const Help = () => {
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
+const Assam = () => {
   return (
     <Layout>
+      <Hero />
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">Assam</h1>
         <div
@@ -15,9 +18,9 @@ const Help = () => {
           >
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col ">
-                  <h3>State-Wise</h3>
+                  <h3></h3>
                 </th>
               </tr>
             </thead>
@@ -31,17 +34,17 @@ const Help = () => {
               <tr>
                 <th scope="row">FIRE SERVICE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101</a>{" "}
+                  <a href="callto:">101</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
                   <a href="callto:">102</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">MEDICAL EMERGENCY </th>
+                <th scope="row">MEDICAL EMERGENCY </th>
                 <td className="fw-bold ">
                   <a href="callto:">108</a> ,<a href="callto:"> 104</a>
                 </td>
@@ -49,8 +52,8 @@ const Help = () => {
               <tr>
                 <th scope="row">WOMEN HELPLINE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">181</a> ,<a href="callto:"> 9345215029</a>,
-                  <a href="callto:"> 0361-2521242</a>
+                  <a href="callto:">181</a> ,<a href="callto:"> 9345215029</a>,
+                  <a href="callto:"> 0361-2521242</a>
                 </td>
               </tr>
               <tr>
@@ -60,7 +63,7 @@ const Help = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">CHILD HELPLINE </th>
+                <th scope="row">CHILD HELPLINE </th>
                 <td className="fw-bold ">
                   <a href="callto:">1098</a>
                 </td>
@@ -68,7 +71,8 @@ const Help = () => {
               <tr>
                 <th scope="row">STATE EMERGENCY OPERATION CENTRE</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 1079</a> ,<a href="callto:"> 9401044617</a>
+                  <a href="callto:"> 1079</a> ,
+                  <a href="callto:">  9401044617</a>
                 </td>
               </tr>
               <tr>
@@ -165,7 +169,7 @@ const Help = () => {
               <tr>
                 <th scope="row">Assam Gujrat Voluntary Blood Bank</th>
                 <td className="fw-bold ">
-                  <a href="callto:">2524939 </a>{" "}
+                  <a href="callto:">2524939 </a>{" "}
                 </td>
               </tr>
               <tr>
@@ -218,4 +222,4 @@ const Help = () => {
   )
 }
 
-export default Help
+export default Assam

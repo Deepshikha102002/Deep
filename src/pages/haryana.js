@@ -1,10 +1,11 @@
 import React from "react"
-import Hero from "../components/Hero/hero"
-import Layout from "../components/Layout/layout"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Haryana = () => {
   return (
     <Layout>
-      <Hero />
+ 
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">Haryana</h1>
         <div
@@ -33,11 +34,12 @@ const Haryana = () => {
               <tr>
                 <th scope="row">AMBULANCE ( MEDICAL HELP )</th>
                 <td className="fw-bold ">
-                  <a href="callto:">102, 2782457</a>
+                  <a href="callto:">102</a>, 
+                  <a href="callto:"> 2782457</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE HELPLINE </th>
+                <th scope="row">AMBULANCE HELPLINE </th>
                 <td className="fw-bold ">
                   <a href="callto:">108</a>
                 </td>
@@ -45,7 +47,7 @@ const Haryana = () => {
               <tr>
                 <th scope="row">Police</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 100 </a>
+                  <a href="callto:"> 100 </a>
                 </td>
               </tr>
               <tr>
@@ -69,7 +71,8 @@ const Haryana = () => {
               <tr>
                 <th scope="row">Hospital Emergency (P.G.I)</th>
                 <td className="fw-bold ">
-                  <a href="callto:">2746018,2747005</a>
+                  <a href="callto:">2746018</a>,
+                  <a href="callto:">2747005</a>
                 </td>
               </tr>
               <tr>

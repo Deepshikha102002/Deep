@@ -1,6 +1,6 @@
 import React from "react"
-import Image from "../Images/images"
-import { Link } from "gatsby"
+import Image from "../Images/Images"
+import {  Link } from "gatsby"
 const Items = [
   {
     name: "HELPLINE NUMBERS",
@@ -13,14 +13,14 @@ const Items = [
     path: "/ventBox",
   },
   {
-    name: "QUOTES",
+    name: "LIFE HAPPENS",
     image: "LH.png",
-    path: "/quotes",
+    path: "/blog",
   },
   {
-    name: "LIFE HAPPENS",
+    name: "WORDS TO REMEMBER",
     image: "WTR.png",
-    path: "/blog",
+    path: "/quotes",
   },
 ]
 
@@ -28,10 +28,7 @@ const Features = () => {
   return (
     <div className="container text-center py-5">
       <h1 class="pb-2 border-bottom text-center fw-bold ">Features</h1>
-      <div
-        className="row justify-content-center"
-        style={{ paddingTop: "50px" }}
-      >
+      <div className="row justify-content-center" style={{ paddingTop: "50px" }}>
         {Items.map((item, i) => {
           return (
             <div key={i} className="col-lg-3 col-md-6 col-sm-12 ">
@@ -45,6 +42,7 @@ const Features = () => {
                     filename={`${item.image}`}
                     alt="1"
                   />
+          
                 </div>
               </Link>
             </div>

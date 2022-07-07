@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Lakshadweep = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Lakshadweep
@@ -29,7 +30,8 @@ const Lakshadweep = () => {
               <tr>
                 <th scope="row">Services & Establishmen</th>
                 <td className="fw-bold ">
-                  <a href="callto:">04896-262336, 04896-263900</a>
+                  <a href="callto:">04896-262336</a>, 
+                  <a href="callto:">04896-263900</a>
                 </td>
               </tr>
               <tr>
@@ -47,7 +49,8 @@ const Lakshadweep = () => {
               <tr>
                 <th scope="row">Health Service</th>
                 <td className="fw-bold ">
-                  <a href="callto:">04896-262089, 04896-262316</a>
+                  <a href="callto:">04896-262089</a>, 
+                  <a href="callto:"> 04896-262316</a>
                 </td>
               </tr>
               <tr>
@@ -191,9 +194,7 @@ const Lakshadweep = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">
-                  Chief Executive Officer, District Panchayath
-                </th>
+                <th scope="row">Chief Executive Officer, District Panchayath</th>
                 <td className="fw-bold ">
                   <a href="callto:">04896-263066</a>
                 </td>

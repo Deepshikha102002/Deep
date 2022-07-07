@@ -1,12 +1,15 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Goa = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
-        <h1 class="py-5 border-bottom align-items-center fw-bold ">Goa</h1>
+        <h1 class="py-5 border-bottom align-items-center fw-bold ">
+          Goa
+        </h1>
         <div
           className="row row-header justify-content-center"
           style={{ paddingTop: "50px" }}
@@ -39,7 +42,7 @@ const Goa = () => {
               <tr>
                 <th scope="row">Centralized Helpline Number</th>
                 <td className="fw-bold ">
-                  <a href="callto:">112</a>
+                  <a href="callto:">112</a> 
                 </td>
               </tr>
               <tr>
@@ -69,16 +72,13 @@ const Goa = () => {
               <tr>
                 <th scope="row">Goa Tourism Development Corporation Ltd</th>
                 <td className="fw-bold ">
-                  <a href="callto:">00832-2424001</a>,
-                  <a href="callto:">00832-2424002</a>,
-                  <a href="callto:">00832-2424003</a>
+                  <a href="callto:">00832-2424001</a>,<a href="callto:">00832-2424002</a>,<a href="callto:">00832-2424003</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">Airport Facilitation Counter </th>
                 <td className="fw-bold ">
-                  <a href="callto:">0832-2540031</a>,
-                  <a href="callto:">0832-2540829</a>
+                  <a href="callto:">0832-2540031</a>,<a href="callto:">0832-2540829</a>
                 </td>
               </tr>
               <tr>
@@ -94,10 +94,7 @@ const Goa = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">
-                  STRESS / SUICIDE HELPLINE ( COOJ FOUNDATION ) Timings : 1pm to
-                  7pm : Monday to Friday
-                </th>
+                <th scope="row">STRESS / SUICIDE HELPLINE ( COOJ FOUNDATION ) Timings :  1pm to 7pm : Monday to Friday</th>
                 <td className="fw-bold ">
                   <a href="callto:">0832-2252525</a>
                 </td>
@@ -105,8 +102,7 @@ const Goa = () => {
               <tr>
                 <th scope="row">Goa Medical College ( Bambolim )</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0832-2458727</a>,
-                  <a href="callto:">0832-2458049 </a>
+                  <a href="callto:">0832-2458727</a>,<a href="callto:">0832-2458049 </a>
                 </td>
               </tr>
               <tr>
@@ -118,8 +114,7 @@ const Goa = () => {
               <tr>
                 <th scope="row">Asilo, Mapusa </th>
                 <td className="fw-bold ">
-                  <a href="callto:">0832-2265119</a>,
-                  <a href="callto:">0832-2262372</a>
+                  <a href="callto:">0832-2265119</a>,<a href="callto:">0832-2262372</a>
                 </td>
               </tr>
               <tr>
@@ -149,8 +144,7 @@ const Goa = () => {
               <tr>
                 <th scope="row">Hospicio Hospital, Margao </th>
                 <td className="fw-bold ">
-                  <a href="callto:">0832-2703801</a>,
-                  <a href="callto:">0832-2722164</a>
+                  <a href="callto:">0832-2703801</a>,<a href="callto:">0832-2722164</a>
                 </td>
               </tr>
               <tr>
@@ -174,8 +168,7 @@ const Goa = () => {
               <tr>
                 <th scope="row">Grace Cardiac Hospital , Panjim ( Private )</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0832-2725391</a>,
-                  <a href="callto:">0832-2726996</a>
+                  <a href="callto:">0832-2725391</a>,<a href="callto:">0832-2726996</a>
                 </td>
               </tr>
               <tr>
@@ -205,8 +198,7 @@ const Goa = () => {
               <tr>
                 <th scope="row">KLES Hospital Liaison Office, Panaji</th>
                 <td className="fw-bold ">
-                  <a href="callto:">2225601</a>, <a href="callto:">2225349 </a>,{" "}
-                  <a href="callto:">7745023777</a>
+                  <a href="callto:">2225601</a>, <a href="callto:">2225349 </a>, <a href="callto:">7745023777</a>
                 </td>
               </tr>
               <tr>
@@ -221,7 +213,7 @@ const Goa = () => {
                   <a href="callto:">2464646</a>
                 </td>
               </tr>
-
+              
               <tr>
                 <th scope="row">Chodankar Nursing Home, Porvorim</th>
                 <td className="fw-bold ">
@@ -240,6 +232,7 @@ const Goa = () => {
                   <a href="callto:">2412130</a>
                 </td>
               </tr>
+              
             </tbody>
           </table>
         </div>

@@ -1,9 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
+import Layout from "../components/Layout/Layout"
+import Hero from "../components/Hero/Hero"
 
 const Ego = () => {
   return (
     <Layout>
+      <Hero />
       <div className="container-fluid  py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold text-center ">
           EGO

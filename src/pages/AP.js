@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const AP = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Andhra Pradesh
@@ -35,11 +36,11 @@ const AP = () => {
               <tr>
                 <th scope="row">FIRE SERVICE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101</a>
+                  <a href="callto:">101</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
                   <a href="callto:">108</a> ,<a href="callto:"> 102</a>
                 </td>
@@ -47,7 +48,7 @@ const AP = () => {
               <tr>
                 <th scope="row">DISHA HELPLINE </th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 181 </a>,<a href="callto:">112</a>
+                  <a href="callto:"> 181 </a>,<a href="callto:">112</a>
                 </td>
               </tr>
               <tr>
@@ -63,7 +64,7 @@ const AP = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">RAILWAYS ENQUIRY </th>
+                <th scope="row">RAILWAYS ENQUIRY </th>
                 <td className="fw-bold ">
                   <a href="callto:">139</a>
                 </td>
@@ -77,11 +78,10 @@ const AP = () => {
               <tr>
                 <th scope="row">A.M.O.H-I, Vijayawada</th>
                 <td className="fw-bold ">
-                  <a href="callto:">9866514148 </a>
-                </td>
+                  <a href="callto:">9866514148 </a></td>
               </tr>
               <tr>
-                <th scope="row">MEDICOVER HOSPITAL NELLORE' </th>
+                <th scope="row">MEDICOVER HOSPITAL NELLORE' </th>
                 <td className="fw-bold ">
                   <a href="callto:">040-68334455</a>
                 </td>
@@ -105,7 +105,7 @@ const AP = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">VIRRD TRUST HOSPITAL ( West Godavari Dist )</th>
+                <th scope="row">VIRRD TRUST HOSPITAL ( West Godavari Dist )</th>
                 <td className="fw-bold ">
                   <a href="callto:">08829 - 271176</a>
                 </td>

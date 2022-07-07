@@ -35,10 +35,13 @@ function Task({ id, title, description, completed }) {
   }
 
   return (
-    <div className="card shadow mb-4 border-primary">
+    <div
+      className="card shadow mb-4 border-primary"
+      
+    >
       {open.task && (
         <div className="card-body">
-          {/* <div class="form-check mb-2">
+          <div class="form-check mb-2">
             <input
               class="form-check-input"
               type="checkbox"
@@ -59,7 +62,7 @@ function Task({ id, title, description, completed }) {
                 <div>Not Completed</div>
               )}
             </label>
-          </div> */}
+          </div>
           <h4 className="fw-bold card-title">{title}</h4>
           <p className="card-text text-truncate">{description}</p>
           <div className="d-flex">
@@ -79,7 +82,7 @@ function Task({ id, title, description, completed }) {
               className="btn btn-danger btn-sm ms-1"
               onClick={handleDelete}
             >
-              Delete
+              Delete 
             </button>
           </div>
         </div>

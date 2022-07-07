@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Karnataka = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Karnataka
@@ -51,25 +52,30 @@ const Karnataka = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">Department of Health and Family Welfare</th>
+                <th scope="row">Department of Health and
+Family Welfare</th>
                 <td className="fw-bold ">
                   <a href="callto:">104</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">Department of Food and Civil Supplies</th>
+                <th scope="row">Department of Food and
+Civil Supplies</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 1967 / 18000-425-9339</a>
+                  <a href="callto:">	1967 </a>,
+                  <a href="callto:">18000-425-9339</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">Department of Agriculture</th>
                 <td className="fw-bold ">
-                  <a href="callto:">08022212818/08022210237</a>
+                  <a href="callto:">08022212818</a>,
+                  <a href="callto:">08022210237</a>
                 </td>
               </tr>
               <tr>
-                <th scope="row">Department of Public Grievances</th>
+                <th scope="row">Department of Public
+Grievances</th>
                 <td className="fw-bold ">
                   <a href="callto:">08044554455</a>
                 </td>
@@ -105,15 +111,14 @@ const Karnataka = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">
-                  Under Mahatma Gandhi National Rural Employment Guarantee
-                  Scheme (Narega)
-                </th>
+                <th scope="row">Under Mahatma Gandhi National
+Rural Employment Guarantee
+Scheme (Narega)</th>
                 <td className="fw-bold ">
                   <a href="callto:">18004258666</a>
                 </td>
               </tr>
-
+              
               <tr>
                 <th scope="row">PMJDY</th>
                 <td className="fw-bold ">

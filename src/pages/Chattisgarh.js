@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const Chattisgarh = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Chattisgarh
@@ -35,32 +36,32 @@ const Chattisgarh = () => {
               <tr>
                 <th scope="row">Sanjivani Express</th>
                 <td className="fw-bold ">
-                  <a href="callto:">108</a>
+                  <a href="callto:">108</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">Health Care and Health Counseling Center</th>
                 <td className="fw-bold ">
-                  <a href="callto:">104</a>
+                  <a href="callto:">104</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">Mahatari Express </th>
                 <td className="fw-bold ">
-                  <a href="callto:">102</a>
+                  <a href="callto:">102</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">Flood Control Room -Collectorate Raipur </th>
                 <td className="fw-bold ">
-                  <a href="callto:">0771-2413233</a>
+                  <a href="callto:">0771-2413233</a> 
                 </td>
               </tr>
               <tr>
                 <th scope="row">COVID</th>
                 <td className="fw-bold ">
                   <a href="callto:">104</a>,
-                  <a href="callto:"> 190771-2235091</a>
+                  <a href="callto:"> 190771-2235091</a>
                 </td>
               </tr>
               <tr>
@@ -70,7 +71,7 @@ const Chattisgarh = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">Electricity problem </th>
+                <th scope="row">Electricity problem </th>
                 <td className="fw-bold ">
                   <a href="callto:">1912</a>
                 </td>
@@ -88,7 +89,7 @@ const Chattisgarh = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">Kisan Call Center </th>
+                <th scope="row">Kisan Call Center </th>
                 <td className="fw-bold ">
                   <a href="callto:">1800-180-1551</a>
                 </td>

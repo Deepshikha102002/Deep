@@ -26,13 +26,14 @@ function TaskManager() {
 
   return (
     <section className="task-section">
-      <div className="container py-5">
+      <h1 className=" py-5">Stories...</h1>
+      <div className="container">
         <div className="text-center mb-4">
           <button
             className="btn m-1 bg-secondary text-light shadow"
             onClick={() => setOpenAddModal(true)}
           >
-            Add your story +
+            New Story +
           </button>
         </div>
         <div>

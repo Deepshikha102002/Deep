@@ -1,10 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Hero from "../components/Hero/hero"
+import Layout from "../components/Layout/Layout"
+import Feel from "../components/Feel/Feel"
+import Hero from "../components/Hero/Hero"
 const JK = () => {
   return (
     <Layout>
-      <Hero />
+
       <div className="container text-center py-5">
         <h1 class="py-5 border-bottom align-items-center fw-bold ">
           Jammu and Kashmir
@@ -35,13 +36,15 @@ const JK = () => {
               <tr>
                 <th scope="row">FIRE</th>
                 <td className="fw-bold ">
-                  <a href="callto:">101, 132</a>
+                  <a href="callto:">101</a>, 
+                  <a href="callto:">132</a> 
                 </td>
               </tr>
               <tr>
-                <th scope="row">AMBULANCE </th>
+                <th scope="row">AMBULANCE </th>
                 <td className="fw-bold ">
-                  <a href="callto:">102, 108</a>
+                  <a href="callto:">102</a>, 
+                  <a href="callto:">108</a>
                 </td>
               </tr>
               <tr>
@@ -65,20 +68,21 @@ const JK = () => {
               <tr>
                 <th scope="row">CRPF MADADGAAR HELPLINE </th>
                 <td className="fw-bold ">
-                  <a href="callto:">9469793260, 14111</a>
+                  <a href="callto:">9469793260</a>, 
+                  <a href="callto:">14111</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">DIRECTOR HEALTH SERVICES</th>
                 <td className="fw-bold ">
-                  <a href="callto:">0194-2452050/52</a>
+                  <a href="callto:">0194-2452050</a>
                 </td>
               </tr>
 
               <tr>
                 <th scope="row">BONE & JOINT HOSPITAL</th>
                 <td className="fw-bold ">
-                  <a href="callto:"> 0194-2430149/115</a>
+                  <a href="callto:"> 0194-2430149</a>
                 </td>
               </tr>
               <tr>
@@ -102,7 +106,8 @@ const JK = () => {
               <tr>
                 <th scope="row">Govt. Medical Hospital Bakshi Nagar</th>
                 <td className="fw-bold ">
-                  <a href="callto:">2549621/2549625</a>
+                  <a href="callto:">2549621</a>,
+                  <a href="callto:">2549625</a>
                 </td>
               </tr>
               <tr>
